@@ -4,7 +4,7 @@ If you're reading this you'd like to run this code, I'd first like to credit Cha
 
 In order to run this code you will need to set up a .csv file with the headers Coin, Date and Days. This .csv file should be named "Data".
 
-The "Coin" colunn should be specify the ticker for the token you with the pair seperated by a forward slash, for example "BLUR/USDT".
+The "Coin" colunn should specify the ticker for the token you with the pair seperated by a forward slash, for example "BLUR/USDT".
 
 The "Date" field should be populated in DD MM YYYY seperated by a forward slash, for example "01/01/23".
 
