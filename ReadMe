@@ -6,9 +6,9 @@ In order to run this code you will need to set up a .csv file with the headers C
 
 The "Coin" colunn should specify the ticker for the token you with the pair seperated by a forward slash, for example "BLUR/USDT".
 
-The "Date" field should be populated in DD MM YYYY seperated by a forward slash, for example "01/01/23".
+The "Date" column should be populated in DD MM YYYY seperated by a forward slash, for example "01/01/23".
 
-The "Days" field should be the number of days between todays date and the day you would like to pull data for, for example "4".
+The "Days" column should be the number of days between todays date and the day you would like to pull data for, for example "4" would pull 4 days data.
 
 Open your command terminal and paste "pip install ccxt" and hit return. This will install the libraries needed to run this code.
 
@@ -18,7 +18,7 @@ Edit your candle size as desired by editing the value inside the quotation marks
 
 In order to run the code navigate to the directory that contains the file and paste "python CS9_Binance.py".
 
-The code will the run through the list of the coins you have provided outputting the files with the name format "(TICKER)_(PAIR)_ohlcv_data".
+The code will the run through the list of the coins you have provided outputting .csv files with the name format "(TICKER)_(PAIR)_ohlcv_data".
 
 
 Until next time, 
